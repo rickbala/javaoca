@@ -13,6 +13,12 @@ public class LearningMethods {
 		System.out.println();
 		System.out.println("Hello, " + System.getProperty("user.name") + "!");
 
+		System.out.println("You are using Java version: " + System.getProperty("java.vm.specification.version"));
+
+		System.out.println("Current directory is: " + System.getProperty("user.dir"));
+
+		System.out.println("\nWhat else?");
+
 	}
 
 }
